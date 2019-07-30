@@ -27,3 +27,20 @@ fieldset {
 label {
   padding: 11px 0;
 }
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+h1{
+  margin-bottom: 122px;
+}
+.user {
+  align-self: flex-start;
+  margin: -29px 368px;
+}
+.stylist {
+  align-self: flex-end;
+  margin: 11px 368px;
+}
