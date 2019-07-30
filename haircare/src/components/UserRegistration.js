@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-const User = (props)=> {
+const User = ()=> {
         const [registration, setRegistration] = useState({
             first_name: "",
             last_name: "",
@@ -18,6 +18,7 @@ const User = (props)=> {
         const handleSubmit = (e)=> {
             e.preventDefault();
             setRegistration({...registration})
+            console.log(registration)
         }    
  
     return (
