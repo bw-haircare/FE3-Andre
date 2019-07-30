@@ -6,7 +6,6 @@ const User = ()=> {
             username: "",
             email: "",
             password: "",
-            registrationErrors: ""
             });
         const handleChange = (e)=> {
             const {name, value} = e.target;

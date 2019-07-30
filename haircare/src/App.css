@@ -44,3 +44,6 @@ h1{
   align-self: flex-end;
   margin: 11px 368px;
 }
+.links {
+  margin: 0 22px;
+}
